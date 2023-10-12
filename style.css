@@ -1,0 +1,111 @@
+.navbar{
+    width: 100vw;
+    height: 11vh;
+    background-color: pink;
+}
+.navbar a{
+    float: right;
+    font-size: 3vh;
+    margin-top: 3vh;
+    padding-right: 5vw;
+    text-decoration: none;  
+    color: rgb(202, 121, 134);
+    margin-right: 2vw;
+    font-family: bubble;
+    font-size: 4vh;
+}
+.navbar img{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 70%;
+    margin-top: 2.5vh;
+    margin-left: 3vw;
+}
+.mainbox{
+    background-image: url(Untitled\ design.png);  
+    width: 100vw;
+    height: 85vh;
+    background-position-x: center, left;
+}
+.mainbox h1{
+    display: inline-flex;
+    margin-top: 30vh;
+    padding-left: 6vw;
+    font-family: gwibble;
+    font-size: 5vh;
+    color: rgb(179, 116, 126)
+}
+.mainbox img{
+    height: 80vh;
+    width: 100vw;
+}
+.mainbox p{
+    font-size: 2vh;
+    margin-left: 5vw;
+    font-family: bubble;
+    color: rgb(179, 116, 126);
+}
+.mainbox a{
+    margin-left: 5vw;
+    text-decoration: none;
+    color: palevioletred;
+    border: 1px solid black;
+    padding: 1vh;
+    background-color: white;
+    font-family: bubble;
+    opacity: 70%;
+
+}
+.footer{
+    width: 100vw;
+    height: 11vh;
+    background-color: pink;
+}
+.footer p{
+    display: inline-flex;
+    margin-left: 2vw;
+    font-family: teen;
+    font-size: 2.6vh;
+    color: rgb(202, 121, 134)
+
+}
+.footer a img{
+    width:2.5vw;
+    height: 4vh;
+    float: right;
+    margin: 2vw;
+}
+.gallerybox{
+    background-color: rgb(252, 219, 224);
+    height: 80vh;
+    width: 100vw;
+    display: inline-flex;
+}
+.imgbox{
+    border: 1px solid black;
+    width: 50vw;
+    margin-left: 25vw;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    border-style: hidden;
+}
+.gallerybox img{
+    height: 30vh;
+    width: 13vw;
+    display: inline-block;
+    align-self: center;
+    margin-left: 3vw;
+    border-radius: 5%;
+}
+@font-face {
+    font-family: gwibble;
+    src: url(peacechild-beta.ttf);
+}
+@font-face {
+    font-family: bubble;
+    src: url(BubblegumSans-Regular.ttf);
+}
+@font-face {
+    font-family: teen;
+    src: url(TEENAGEANGST.TTF);
+}
